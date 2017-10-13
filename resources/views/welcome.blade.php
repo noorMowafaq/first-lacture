@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   {{$name}}
+                   {{$posts->des}}
                 </div>
 
                 <div class="links">
