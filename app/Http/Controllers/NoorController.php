@@ -9,6 +9,6 @@ class NoorController extends Controller
     public function getHome()
     {
         $name = 'hamdon';
-        return View('welcome',compact('name'));
+        return View('welcome',compact('name')); // ارسال المعلومات الى الفيو 
     }
 }
